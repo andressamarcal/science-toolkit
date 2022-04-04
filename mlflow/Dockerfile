@@ -1,4 +1,4 @@
-FROM python:3.6.9-stretch
+FROM python:3.6-stretch
 
 # ENV MLFLOW_S3_ENDPOINT_URL
 # ENV AWS_ACCESS_KEY_ID
