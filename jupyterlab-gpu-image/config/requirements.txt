@@ -1,4 +1,4 @@
-notebook==6.0.1
+notebook==6.4.12
 jupyterhub==1.0.0
 jupyterlab==2.2.9
 bokeh==2.0.1
