@@ -10,7 +10,7 @@ COPY . .
 RUN go build -o gitea-oauth2-setup .
 
 
-FROM ubuntu
+FROM ubuntu:kinetic-20220830
 
 # RUN apk add -U --no-cache ca-certificates
 
