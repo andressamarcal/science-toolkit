@@ -1,5 +1,5 @@
 notebook==6.0.1
-jupyterhub==1.0.0
+jupyterhub==1.5.0
 jupyterlab==2.2.9
 bokeh==2.0.1
 ipywidgets==7.5.1
