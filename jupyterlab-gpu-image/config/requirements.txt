@@ -1,12 +1,13 @@
-notebook==6.0.1
-jupyterhub==1.0.0
-jupyterlab==2.2.9
+notebook==6.4.12
+jupyterhub==1.5.0
+jupyterlab==2.2.10
 bokeh==2.0.1
 ipywidgets==7.5.1
 jupyterlab-dash==0.1.0a3
 jupyterlab-git==0.23.2
 jupytext==1.4.1
-nbdime==2.0.0
+nbdime==2.1.1
 nbresuse==0.3.3
 tensorflow==2.0.0b1 # needed to have tensorboard features
 tqdm==4.48.2
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
