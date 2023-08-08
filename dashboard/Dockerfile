@@ -19,7 +19,7 @@ COPY . .
 RUN go build -o dashboard .
 
 
-FROM alpine
+FROM alpine:3.18.3
 
 WORKDIR /app
 COPY --from=builder /app/dashboard .
