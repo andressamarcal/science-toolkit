@@ -24,11 +24,11 @@ matplotlib-venn==0.11.6
 mlflow==1.17.0
 mock==4.0.3
 networkx==2.5.1
-nltk==3.6.2
+nltk==3.8.1
 node2vec==0.4.3
 nose2==0.10.0
 numpy==1.20.3
-opencv-python==4.5.2.54
+opencv-python==4.8.1.78.54
 pandas==1.2.4
 pandas-profiling==2.13.0
 Pillow==8.2.0
@@ -53,3 +53,4 @@ UGFraud==0.1.1.3
 xlrd==2.0.1
 pytorch-nlp==0.5.0
 pytorch-lightning==1.3.5
+pydantic>=1.10.13 # not directly required, pinned by Snyk to avoid a vulnerability
