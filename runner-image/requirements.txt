@@ -4,7 +4,7 @@ csvkit==1.0.5
 cx-Oracle==8.1.0
 dask==2021.6.0
 deepwalk==1.0.3
-dgl==0.6.1
+dgl==0.9.0
 dvc==2.0.1
 facets-overview==1.0.0
 flake8==3.9.2
