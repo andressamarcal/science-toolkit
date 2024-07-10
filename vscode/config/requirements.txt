@@ -1,2 +1,3 @@
 jupyter==1.0.0
 black==21.5b2
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
