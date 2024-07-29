@@ -1,12 +1,24 @@
-notebook==6.0.1
-jupyterhub==1.0.0
-jupyterlab==2.2.9
+notebook==6.4.12
+jupyterhub==4.1.0
+jupyterlab==3.6.7
 bokeh==2.0.1
 ipywidgets==7.5.1
 jupyterlab-dash==0.1.0a3
 jupyterlab-git==0.23.2
 jupytext==1.4.1
-nbdime==2.0.0
+nbdime==2.1.1
 nbresuse==0.3.3
 tensorflow==2.0.0b1 # needed to have tensorboard features
 tqdm==4.48.2
+aiohttp>=3.9.4 # not directly required, pinned by Snyk to avoid a vulnerability
+anyio>=4.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
+ipython>=8.10.0 # not directly required, pinned by Snyk to avoid a vulnerability
+jupyter-server>=2.14.1 # not directly required, pinned by Snyk to avoid a vulnerability
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
+pillow>=10.3.0 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.32.2 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
+tornado>=6.4.1 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=3.0.3 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
