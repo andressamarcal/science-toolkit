@@ -1,6 +1,6 @@
 notebook==6.0.1
 jupyterhub==1.0.0
-jupyterlab==2.2.9
+jupyterlab==3.6.8
 bokeh==2.0.1
 ipywidgets==7.5.1
 jupyterlab-dash==0.1.0a3
