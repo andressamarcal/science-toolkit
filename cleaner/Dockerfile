@@ -10,7 +10,7 @@ FROM golang:1.14-alpine3.11 as builder
  RUN go build -o cleaner .
  
  
- FROM alpine:3.11
+ FROM alpine:3.19.4
  
  COPY --from=builder /app/cleaner /usr/local/bin/
  
