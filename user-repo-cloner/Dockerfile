@@ -10,7 +10,7 @@ COPY . .
 RUN go build -o user-repo-cloner .
 
 
-FROM alpine:3.10.2
+FROM alpine:3.19.6
 
 # Create kre user.
 ENV USER=kdl
