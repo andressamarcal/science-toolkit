@@ -6,7 +6,7 @@
     },
     "version": "0.0.1",
     "dependencies": {
-        "semantic-release": "15.9.12",
+        "semantic-release": "17.0.1",
         "semantic-release-monorepo": "6.1.1",
         "@semantic-release/changelog": "3.0.3",
         "@semantic-release/commit-analyzer": "6.1.0",
